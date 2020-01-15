@@ -13,6 +13,7 @@
 		17DFD26B23CF1A4600994A00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DFD26923CF1A4600994A00 /* Main.storyboard */; };
 		17DFD26D23CF1A4800994A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DFD26C23CF1A4800994A00 /* Assets.xcassets */; };
 		17DFD27023CF1A4800994A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DFD26E23CF1A4800994A00 /* LaunchScreen.storyboard */; };
+		17DFD27823CF1BEC00994A00 /* VersionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DFD27723CF1BEC00994A00 /* VersionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		17DFD26C23CF1A4800994A00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17DFD26F23CF1A4800994A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17DFD27123CF1A4800994A00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DFD27723CF1BEC00994A00 /* VersionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				17DFD26C23CF1A4800994A00 /* Assets.xcassets */,
 				17DFD26E23CF1A4800994A00 /* LaunchScreen.storyboard */,
 				17DFD27123CF1A4800994A00 /* Info.plist */,
+				17DFD27723CF1BEC00994A00 /* VersionManager.swift */,
 			);
 			path = VersionCheck;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DFD27823CF1BEC00994A00 /* VersionManager.swift in Sources */,
 				17DFD26823CF1A4600994A00 /* ViewController.swift in Sources */,
 				17DFD26423CF1A4600994A00 /* AppDelegate.swift in Sources */,
 				17DFD26623CF1A4600994A00 /* SceneDelegate.swift in Sources */,
@@ -291,7 +295,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Priyal.VersionCheck;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.priyal.versionCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -309,7 +314,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Priyal.VersionCheck;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.priyal.versionCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
